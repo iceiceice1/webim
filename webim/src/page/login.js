@@ -14,19 +14,19 @@ class Login extends React.Component{
    render(){
     return (
         <div className='webbody'>
-        <div className='Login'>
+        <form className='Login'>
             <div className='headline'> Web IM</div>
             <div className='account'>
             账号：
-            <Input placeholder='请输入账号或邮箱' className='input' />
+            <Input placeholder='请输入账号或邮箱' className='input' name='loginaccount'/>
             </div>
            <div className='password'>
-              密码：<Input  placeholder='请输入密码' type='password' className='input'/>
+              密码：<Input  placeholder='请输入密码' type='password' className='input' name='loginpsw'/>
            </div>
            
                 <Button onClick={this.login} className='button'>登录</Button>
                 <Button onClick={this.register} className='button'>注册</Button>
-        </div>
+        </form>
         </div>
     )
    }
