@@ -7,7 +7,7 @@
     width: 80%;
     height: 90%;
     margin-top: 50px;
-    background-image: url('E:\test\webim\public\22.jpg');
+    background-image: url('../../public/22.jpg');
     background-size: 700px,600px;
 }
 .Login{ 
@@ -21,6 +21,10 @@
     height: 300px;
   
 }
+.ant-form-item-control-input-content {
+    flex: auto;
+    max-width: 180px;
+}
 .headline{
     margin-top: 20px;
     text-align: center;
@@ -29,15 +33,22 @@
 .account{
     text-align: center;
     margin-top: 30px;
+    margin-left: 35px;
 }
 
 .password{
    text-align: center;
     margin-top: 20px;
+    margin-left: 35px;
 }
 
-.input{
+.accinput{
     display: inline-block;
+    width: 180px;
+}
+
+.pwdinput{
+    /* display: inline-block; */
     width: 180px;
 }
 

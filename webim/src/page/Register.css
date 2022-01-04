@@ -16,6 +16,14 @@
     border: 1px solid black;
 }
 
+.email{
+    margin-left: 35px;
+}
+
+.passwordagain{
+    margin-left: 35px;
+}
+
 .passwordagain{
     margin-left: 10px;
     margin-top: 20px;
